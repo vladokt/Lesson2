@@ -9,7 +9,7 @@
             Console.WriteLine("Hello " + name);
             Console.WriteLine("Enter your age");
             var age = Console.ReadLine();
-            Console.WriteLine("You are " + age + "year old");
+            Console.WriteLine("You are " + age + " years old");
             Console.Read();
         }
 
