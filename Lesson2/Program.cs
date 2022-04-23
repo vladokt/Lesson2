@@ -6,10 +6,10 @@
         {
             Console.WriteLine("Pls, enter the Name");
             string name = Console.ReadLine();
-
-            Console.WriteLine("Hello world " + name);
-            Console.Read();
-
+            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Enter your age");
+            var age = Console.ReadLine();
+            Console.WriteLine("You are " + age + "year old");
         }
 
     }
