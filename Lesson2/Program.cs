@@ -10,6 +10,7 @@
             Console.WriteLine("Enter your age");
             var age = Console.ReadLine();
             Console.WriteLine("You are " + age + "year old");
+            Console.Read();
         }
 
     }
